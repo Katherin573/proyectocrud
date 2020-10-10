@@ -19,7 +19,8 @@ public class PersonaController {
 	private IPersonaService service;
 	
 	@GetMapping
-	public List<Persona> listar(){
+	public List<Persona> listar(){ 
+		
 		return service.listar();
 	}
 	 
