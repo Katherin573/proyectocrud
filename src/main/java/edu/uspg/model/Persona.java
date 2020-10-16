@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 //@XmlRootElement
 @Entity
-@Table(name = "persona")
+@Table(name = "personas")
 public class Persona {
 	
 	@Id
